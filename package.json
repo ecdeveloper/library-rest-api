@@ -1,0 +1,18 @@
+{
+  "name": "library-rest",
+  "version": "1.0.0",
+  "description": "An automated librarian service, with a RESTful API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eugene Chiriliuc <ec.developer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "mongodb": "^2.2.33"
+  }
+}
